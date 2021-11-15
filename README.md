@@ -8,15 +8,11 @@
 
 ### Dry run
 
-```bash
-curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-xyz-SEARCH SOMETHING HERE-xyz-" "-xyz-REPLACE SOMETHING HERE-xyz-"
-```
+`curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-xyz-SEARCH SOMETHING HERE-xyz-" "-xyz-REPLACE SOMETHING HERE-xyz-"`
 
 ### Execute
 
 :warning: search and replace can be very dangerous, BUT as a safety precaution this script will take a full
 UpdraftPlus backup of your site before executing the search-replace command
 
-```bash
-curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-xyz-SEARCH SOMETHING HERE-xyz-" "-xyz-REPLACE SOMETHING HERE-xyz-" --execute
-```
+`curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-xyz-SEARCH SOMETHING HERE-xyz-" "-xyz-REPLACE SOMETHING HERE-xyz-" --execute`
