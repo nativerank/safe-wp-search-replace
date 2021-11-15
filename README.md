@@ -12,7 +12,8 @@ Dry run
 curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-x-PLACEHOLDER-x-" "-x-PLACEHOLDER-x-"
 ```
 
-Execute :warning: search and replace can be very dangerous, fortunately this script will take a full backup of your site before proceeding 
+Execute :warning: search and replace can be very dangerous, BUT as a safety precaution
+this script will take a full UpdraftPlus backup of your site before executing the search-replace command 
 
 ```bash
 curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-x-PLACEHOLDER-x-" "-x-PLACEHOLDER-x-" --execute
