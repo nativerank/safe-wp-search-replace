@@ -8,7 +8,8 @@
 
 ### Dry run
 
-```bash curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-xyz-SEARCH SOMETHING HERE-xyz-" "-xyz-REPLACE SOMETHING HERE-xyz-"```
+```bash 
+curl https://raw.githubusercontent.com/nativerank/safe-wp-search-replace/master/safe-wp-search-replace.sh | bash -s -- "-xyz-SEARCH SOMETHING HERE-xyz-" "-xyz-REPLACE SOMETHING HERE-xyz-"```
 
 ### Execute
 
